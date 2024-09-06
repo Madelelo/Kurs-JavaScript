@@ -67,21 +67,29 @@
 //   console.log("Det er ikke fredag... :(");
 // }
 
-//Oppgave 12
-let clickCounter = 0;
+// //Oppgave 12
 
-function handleClickCounter() {
-  clickCounter++;
-  console.log(clickCounter);
-}
-//Oppgave 13
-function handleClickColor(color) {
-  console.log(color);
-  document.body.style.backgroundColor = color;
-}
+// function handleClickCounter() {
+//   console.log(clickCounter);
+// }
 
-//Oppgave 14
-console.log(window.innerWidth);
-if (window.innerWidth < 700) {
-  document.body.p.style.color = "blue";
-}
+// //Oppgave 13
+// function handleClickColor(color) {
+//   console.log(color);
+//   document.body.style.backgroundColor = color;
+// }
+
+// //Oppgave 14
+
+// function chooseFont(font) {
+//   console.log(font);
+//   document.getElementById("valgfriTekst").style.fontFamily = font;
+// }
+// function chooseFontSize(fontSize) {
+//   console.log(fontSize);
+//   document.getElementById("valgfriTekst").style.fontSize = `${fontSize}px`;
+// }
+// function writeInText() {
+//   let inputedText = prompt("Skriv inn din text her: ");
+//   document.getElementById("valgfriTekst").innerHTML = inputedText;
+// }
