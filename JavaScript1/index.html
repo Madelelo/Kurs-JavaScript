@@ -1,22 +1,48 @@
 <!DOCTYPE html>
 <html lang="nb">
-<head>
-<title>JavaScript-kurs</title>
-</head>
+  <head>
+    <title>JavaScript-kurs</title>
+  </head>
 
-<body>
-<h1 id="overskrift">JavaScript 1</h1>
+  <body>
+    <h1 id="overskrift">JavaScript 1</h1>
 
-<p id="tekst"> Her skal det komme tekst</p>
+    <button onclick="handleClickCounter()">Klikk meg</button>
 
-<button onclick="handleOnClick()"> Klikk meg!</button>
+    <button onclick="handleClickColor(`Blue`)">Blue</button>
+    <button onclick="handleClickColor(`Pink`)">Pink</button>
+    <button onclick="handleClickColor(`White`)">White</button>
+    <br>
+    <br> <br>
+    <br>
+    <p id="valgfriTekst" style="border: 1px solid black; padding: 20px">  Din text her! </p>
+     <p> Velg font: </p>
+    <button onclick="chooseFont(`Arial`)">Arial </button>
+    <button onclick="chooseFont(`Times New Roman`)">Times New Roman </button>
+    <button onclick="chooseFont(`Courier New`)">Courier New </button>
+   
 
-<button id="minKnapp">Klikk meg og!</button>
+    <p> Velg fontstørrelse: </p>
+    <button onclick="chooseFontSize(`16`)"> 16 </button>
+    <button onclick="chooseFontSize(`20`)">20 </button>
+    <button onclick="chooseFontSize(`30`)">30 </button>
 
+    <p> Velg farge på tekst: </p>
+    <button> Hvit </button>
+    <button> Svart</button>
 
-<p id="pokemon"> </p>
-<script src="script.js" async></script>
-</body>
-
+    <p> Velg farge på bakgrunnen: </p>
+    <button> Blå </button>
+    <button> Rosa </button>
+    <button> Lilla </button>
+ <br>
+ <br>
+ <br>
+ <br>
+    <button onclick="writeInText()"> Klikk her for å skrive inn tekst</button>
+ <p> Skriv inn valgfri tekst i boksen som popper opp</p>
+ 
+    </div>
+    <script src="script.js" async></script>
+  </body>
 </html>
-

@@ -1,99 +1,95 @@
-//Din JavaScript kode her
+// //Oppgave 1
+// let message = "Hello World";
+// console.log(message);
 
+// //Oppgave 2
+// let myName = "Madeleine";
+// console.log("Hello " + myName);
 
-//Oppgave 1
-let text = "Hello world"
-console.log(text)
+// //Oppgave 3
+// let radius = 5;
+// let pi = 3.14;
+// let omkrets = 2 * radius * pi;
 
-//Oppgave 2
-let myName = "Madeleine"
-console.log("Hello " + myName)
+// //Vanlig løsning
+// console.log("For radius " + radius + " er omkretsen " + omkrets);
 
-//Oppgave 3
-let radius = 5
-const pi = 3.14
-let omkrets = 2*radius*pi
-console.log("For en radius på ", radius ," er omkretsen "+omkrets)
+// //Løsning med avrundet tall
+// console.log("For radius " + radius + " er omkretsen " + Math.round(omkrets));
 
-let omkretsRund = omkrets.toFixed(2)
-console.log(omkretsRund)
+// //Oppgave 4
+// let person = {
+//   fornavn: "Madeleine",
+//   etternavn: "Lorås",
+//   alder: 33,
+//   bursdag: "19.01.91",
+//   over18: true,
+//   favorittFarge: "Blue",
+// };
 
-//Oppgave 4.1
-const myFullName = {
-    firstname:"Madeleine",
-    lastname:"Lorås",
-    age: 32,
-    dob: new Date("1991-01-19"),
-    over18: true
-}
-console.log("Hello", myFullName.firstname, myFullName.lastname)
-console.log(myFullName)
+// console.log(person);
+// console.log("Hallo " + person.fornavn + " " + person.etternavn);
 
-//Oppgave 5
-let count=0
+// //Oppgave 5
+// let navnLengde = 9;
+// console.log(
+//   "Hallo " + person.fornavn + " ditt navn har " + navnLengde + " bokstaver."
+// );
 
-function handleOnClick(){
-    console.log("Klikk!")
-    count = count+1
-    console.log(count)
-    
-}
+// //Oppgave 6
+// let fultNavn = person.fornavn + " " + person.etternavn;
+// console.log(fultNavn);
 
-var minStreng = "Dette er en streng"
-console.log(minStreng.length) // denne returnerer 16
+// //Oppgave 7
+// let message2 = `Hei, mitt navn er ${person.fornavn} ${person.etternavn}. Jeg er ${person.alder} år gammel og har bursdag ${person.bursdag}`;
 
+// console.log(message2);
 
+// //Oppgave 10
+// let passswordInput = prompt("Skriv inn passord?");
 
-//var userName = prompt("Please enter your name:");
-//console.log(userName)
+// passwordInput == "passord1234"
+//   ? console.log("Tilgang innvilget")
+//   : console.log("Nope");
 
-let kurs="S"
+// //Oppgave 11
+// let today = new Date();
 
-if (kurs == "JavScript"){
-    console.log("Jippi")
-} else if (kurs == "Python"){
-    console.log("Okeida")
-}else{
-    console.log("NOOO")
-}
+// if (today.getDay() == 3) {
+//   console.log("Det er fredag!");
 
-switch (new Date().getDay()) {
-  case 0:
-    console.log("Søndag - Ikke JavaScript kurs :/ ");
-    break;
-  case 1:
-    console.log("Mandag - Jippi,  JavaScript kurs");
-    break;
-  case 2:
-     console.log("Tirsdag - Jippi,  JavaScript kurs");
-    break;
-  case 3:
-    console.log("Onsdag - Jippi,  JavaScript kurs");
-    break;
-  case 4:
-  case 5:
-  case 6:
-    console.log("Saturday - Ikke JavaScript kurs :/");
-}
+//   if (today.getHours() >= 15) {
+//     if (today.getMinutes() >= 30) {
+//       console.log("God helg vi sees på mandag");
+//     }
+//   }
+// } else {
+//   console.log("Det er ikke fredag... :(");
+// }
 
+// //Oppgave 12
 
-document.getElementById("minKnapp").addEventListener("click", knappTrykket2);
+// function handleClickCounter() {
+//   console.log(clickCounter);
+// }
 
-function knappTrykket2() {
-   alert ("Klikk!");
-}
+// //Oppgave 13
+// function handleClickColor(color) {
+//   console.log(color);
+//   document.body.style.backgroundColor = color;
+// }
 
+// //Oppgave 14
 
-document.getElementById("tekst").innerHTML = "Hello World!";
-
-
-
-
-
-
-window.addEventListener("resize", function(){
-    document.getElementById("tekst").innerHTML = Math.random();
-    document.getElementById("tekst").style.color ="Red";
-
-  });
-
+// function chooseFont(font) {
+//   console.log(font);
+//   document.getElementById("valgfriTekst").style.fontFamily = font;
+// }
+// function chooseFontSize(fontSize) {
+//   console.log(fontSize);
+//   document.getElementById("valgfriTekst").style.fontSize = `${fontSize}px`;
+// }
+// function writeInText() {
+//   let inputedText = prompt("Skriv inn din text her: ");
+//   document.getElementById("valgfriTekst").innerHTML = inputedText;
+// }
