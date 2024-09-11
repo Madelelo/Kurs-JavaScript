@@ -1,15 +1,17 @@
-// //Oppgave 1
-// let message = "Hello World";
-// console.log(message);
+//Oppgave 1
+let message = "Hello World";
+console.log(message);
 
-// //Oppgave 2
-// let myName = "Madeleine";
-// console.log("Hello " + myName);
+//Oppgave 2
+let myName = "Madeleine";
+console.log("Hello " + myName);
 
-// //Oppgave 3
-// let radius = 5;
-// let pi = 3.14;
-// let omkrets = 2 * radius * pi;
+//Oppgave 3
+let radius = 5;
+let pi = 3.14;
+let omkrets = 2 * radius * pi;
+
+let nameOfPerson = "jjaj";
 
 // //Vanlig løsning
 // console.log("For radius " + radius + " er omkretsen " + omkrets);
@@ -93,3 +95,5 @@
 //   let inputedText = prompt("Skriv inn din text her: ");
 //   document.getElementById("valgfriTekst").innerHTML = inputedText;
 // }
+
+let response = await fetch("data.json");
