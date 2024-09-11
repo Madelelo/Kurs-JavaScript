@@ -4,39 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript 2</title>
+    <style>
+      div {
+        padding: 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Oppgave 1 - Kan du øvelseskjøre</h1>
-    <form>
-      <label for="alder">Skriv inn din alder: </label>
-      <input type="number" id="alder" />
+    <div>
+      <h1>Oppgave 1 - Kan du øvelseskjøre</h1>
+      <form>
+        <label for="alder">Skriv inn din alder: </label>
+        <input type="number" id="alder" />
 
-      <label for="harTraffikalt"> Har trafikalt: </label>
-      <input type="checkbox" id="harTraffikalt" value="true" />
+        <label for="harTraffikalt"> Har trafikalt: </label>
+        <input type="checkbox" id="harTraffikalt" value="true" />
 
-      <button type="button" onclick="sjekkTrafikkalt()">Sjekk</button>
+        <button type="button" onclick="sjekkTrafikkalt()">Sjekk</button>
 
-      <p id="svar"></p>
-    </form>
-
-    <h1>Oppgave 2 - Kontaktskjema</h1>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="user_name" />
-      <br />
-      <label for="email">Email: </label>
-      <input type="email" id="email" name="user-email" />
-      <br />
-      <label for="topic"> Topic:</label>
-      <input type="text" id="topic" name="message-topic" />
-      <br />
-      <label for="message">Message:</label>
-      <textarea id="message" name="message"></textarea>
-      <button type="button" onclick="sendInn()">Send</button>
-      <button type="reset">Reset</button>
-    </form>
-
-    <h1>Oppgave 3 - Logg inn</h1>
+        <p id="svar"></p>
+      </form>
+    </div>
+    <div>
+      <h1>Oppgave 2 - Kontaktskjema</h1>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+        <br />
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="user-email" />
+        <br />
+        <label for="topic"> Topic:</label>
+        <input type="text" id="topic" name="message-topic" />
+        <br />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="button" onclick="sendInn()">Send</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+    <div>
+      <h1>Oppgave 3 - Logg inn</h1>
+    </div>
 
     <script src="script.js" async></script>
   </body>

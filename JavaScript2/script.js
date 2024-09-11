@@ -1,4 +1,70 @@
-//INPUT med FORMS
+//Oppgave 1 - Kan du øvelseskjøre?
+function sjekkTrafikkalt() {
+  let alder = document.getElementById("alder").value;
+  let harTrafikkalt = document.getElementById("harTraffikalt").checked;
+
+  if ((alder > 17 && harTrafikkalt) || alder > 24) {
+    document.getElementById("svar").innerHTML = "Du kan øvelsesskjøre";
+  } else {
+    document.getElementById("svar").innerHTML = "Du kan ikke øvelsesskjøre";
+  }
+}
+//Oppgave 2 - Kontaktskjema
+function sendInn() {
+  let henvendelse = {};
+  let userName = document.getElementById("name").value;
+  henvendelse.navn = userName;
+  let userEmail = document.getElementById("email").value;
+  henvendelse.epost = userEmail;
+  let topic = document.getElementById("topic").value;
+  henvendelse.tema = topic;
+  let message = document.getElementById("message").value;
+  henvendelse.melding = message;
+
+  console.log(henvendelse);
+}
+
+//Oppgave 3 - Enkel logg inn (med kun JavaScript)
+let loginForm = document.createElement("form");
+
+let inputUsername = document.createElement("input");
+inputUsername.type = "text";
+inputUsername.id = "username";
+inputUsername.name = "username";
+
+let labelUsername = document.createElement("label");
+labelUsername.for = "username";
+labelUsername.innerHTML = "Username: ";
+
+loginForm.appendChild(labelUsername);
+loginForm.appendChild(inputUsername);
+
+let inputPassword = document.createElement("input");
+inputPassword.type = "password";
+inputPassword.id = "password";
+inputPassword.name = "password";
+
+let labelPassword = document.createElement("label");
+labelPassword.for = "password";
+labelPassword.innerHTML = "Password: ";
+
+loginForm.appendChild(labelPassword);
+loginForm.appendChild(inputPassword);
+
+let checkButton = document.createElement("button");
+checkButton.type = "button";
+
+checkButton.onclick = function () {
+  if (document.getElementById("password").value == "1") {
+    console.log("yolo");
+  }
+};
+checkButton.innerHTML = "Check password";
+loginForm.appendChild(checkButton);
+
+//Add the form to the HTML-page
+document.body.appendChild(loginForm);
+
 //Oppgave 1
 
 // //LØKKER
@@ -163,70 +229,3 @@
 // //   para.innerHTML += pokemon[p].name + "<br>";
 // //   document.body.appendChild(para);
 // // }
-
-//Oppgave 1 - Kan du øvelseskjøre?
-function sjekkTrafikkalt() {
-  let alder = document.getElementById("alder").value;
-  let harTrafikkalt = document.getElementById("harTraffikalt").checked;
-
-  if ((alder > 17 && harTrafikkalt) || alder > 24) {
-    document.getElementById("svar").innerHTML = "Du kan øvelsesskjøre";
-  } else {
-    document.getElementById("svar").innerHTML = "Du kan ikke øvelsesskjøre";
-  }
-}
-//Oppgave 2 - Kontaktskjema
-function sendInn() {
-  let henvendelse = {};
-  let userName = document.getElementById("name").value;
-  henvendelse.navn = userName;
-  let userEmail = document.getElementById("email").value;
-  henvendelse.epost = userEmail;
-  let topic = document.getElementById("topic").value;
-  henvendelse.tema = topic;
-  let message = document.getElementById("message").value;
-  henvendelse.melding = message;
-
-  console.log(henvendelse);
-}
-
-//Oppgave 3 - Enkel logg inn (med kun JavaScript)
-let loginForm = document.createElement("form");
-
-let inputUsername = document.createElement("input");
-inputUsername.type = "text";
-inputUsername.id = "username";
-inputUsername.name = "username";
-
-let labelUsername = document.createElement("label");
-labelUsername.for = "username";
-labelUsername.innerHTML = "Username: ";
-
-loginForm.appendChild(labelUsername);
-loginForm.appendChild(inputUsername);
-
-let inputPassword = document.createElement("input");
-inputPassword.type = "password";
-inputPassword.id = "password";
-inputPassword.name = "password";
-
-let labelPassword = document.createElement("label");
-labelPassword.for = "password";
-labelPassword.innerHTML = "Password: ";
-
-loginForm.appendChild(labelPassword);
-loginForm.appendChild(inputPassword);
-
-let checkButton = document.createElement("button");
-checkButton.type = "button";
-
-checkButton.onclick = function () {
-  if (document.getElementById("password").value == "1") {
-    console.log("yolo");
-  }
-};
-checkButton.innerHTML = "Check password";
-loginForm.appendChild(checkButton);
-
-//Add the form to the HTML-page
-document.body.appendChild(loginForm);
