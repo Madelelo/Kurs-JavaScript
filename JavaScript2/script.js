@@ -1,3 +1,11 @@
+let inputTekst = " "
+document.getElementById("minInput").value = inputTekst;
+function sendInn2(){
+    let x = document.getElementById("minInput").value;
+    console.log(x)
+}
+
+
 //Oppgave 1 - Kan du øvelseskjøre?
 function sjekkTrafikkalt() {
   let alder = document.getElementById("alder").value;
@@ -229,3 +237,7 @@ document.body.appendChild(loginForm);
 // //   para.innerHTML += pokemon[p].name + "<br>";
 // //   document.body.appendChild(para);
 // // }
+
+
+
+//
