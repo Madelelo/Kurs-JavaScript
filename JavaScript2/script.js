@@ -1,8 +1,7 @@
-let inputTekst = " "
-document.getElementById("minInput").value = inputTekst;
-function sendInn2(){
-    let x = document.getElementById("minInput").value;
-    console.log(x)
+//Fra Slides
+function sendInn(){
+    let inputtekst = document.getElementById("minInput").value;
+    console.log(inputtekst)
 }
 
 
@@ -18,7 +17,7 @@ function sjekkTrafikkalt() {
   }
 }
 //Oppgave 2 - Kontaktskjema
-function sendInn() {
+function sendInnKontaktskjema() {
   let henvendelse = {};
   let userName = document.getElementById("name").value;
   henvendelse.navn = userName;
