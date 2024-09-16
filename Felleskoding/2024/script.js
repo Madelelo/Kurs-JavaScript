@@ -9,22 +9,21 @@
 // // Skriv ut «Hallo (ditt navn)» ved å kombinere
 // // «Hallo» med ditt navn.
 
-// let yesNoForm = document.createElement("form")
+let yourForm = document.createElement("form")
 
-// let inputYes = document.createElement("input")
-// inputYes.type = "radio" 
-// inputYes.id = "radioeYes"
-// inputYes.value = "yes"
+let yourInput = document.createElement("input")
+yourInput.type = "text" 
+yourInput.id = "myInput"
+yourInput.value = "Text"
 
-// let inputYesLabel = document.createElement("label")
-// inputYesLabel.for = "radioYes"
-// inputYesLabel.innerHTML = "Ja"
+let yourInputLabel = document.createElement("label")
+yourInputLabel.for = "myInput" //Samme som <input> id
+yourInputLabel.innerHTML = "Din text her: "
 
-// yesNoForm.appendChild(inputYesLabel)
-// yesNoForm.appendChild(inputYes)
-
-// document.body.appendChild(yesNoForm)
-
+yourForm.appendChild(yourInputLabel) //Legger label inn i yourForm
+yourForm.appendChild(yourInput) //Legger input inn i yourForm
+document.getElementById("form1").appendChild(yourForm) //Legger yourForm inn i HTML-dok
+// Klarer du å legge til en send-knapp?
 
 
 function confirmButton(){
