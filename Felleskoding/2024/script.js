@@ -1,3 +1,44 @@
+function regnUtAreal(lengde, bredde){
+  let areal = lengde*bredde;
+  return areal
+}
+
+console.log("Arealet er: ",regnUtAreal(3,2))
+
+
+const regnUtOmkrets = (lengde,bredde) => {return (2*lengde)+(2*bredde)}
+
+
+console.log("Omkretsen er: ",regnUtOmkrets(3,2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 let yourForm = document.createElement("form")
 
@@ -170,7 +211,6 @@ let pokemon = {
     } 
     
     }; 
- console.log(pokemon) 
 
  let pokemonHeading = document.createElement("h1")
  pokemonHeading.innerHTML = "Electric pokemons"
