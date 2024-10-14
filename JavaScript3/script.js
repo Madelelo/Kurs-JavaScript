@@ -1,3 +1,19 @@
+//Scope
+let farge = "grønn"
+
+function endreFarge(nyFarge){
+    farge = nyFarge
+}
+endreFarge("rød")
+
+console.log(farge) //Hva printes her?
+
+// Arrow functions
+const printMessage = (nameOfPerson) => { return `Hello ${nameOfPerson}`}
+
+console.log(printMessage("Madde"))
+
+
 //Oppgave 1
 function printMelding(navn){
     console.log("hello ", navn)
@@ -22,9 +38,7 @@ console.log(generererHisotrie("Madde", "glitrende", "morsomme", "skummle","fabel
 
 
 
-const printMessage = (nameOfPerson) => { return `Hello ${nameOfPerson}`}
 
-console.log(printMessage("Madde"))
 
 //Oppgave 6
 function erPalindrom(ord){
