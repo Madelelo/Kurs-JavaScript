@@ -39,7 +39,6 @@ console.log(generererHisotrie("Madde", "glitrende", "morsomme", "skummle","fabel
 
 
 
-
 //Oppgave 6
 function erPalindrom(ord){
     let counter =0; // bruker en counter for å telle hvor mange bokstaver som er like
@@ -59,47 +58,61 @@ if (counter == ord.length) {
 
 console.log(erPalindrom("level"))
 
+//Oppgave UTFORDRING
+const aksjeListe = [
+        {navn: 'TechCorp', prisPerAksje: 80, sektor: 'teknologi', antallAksjerTilgjengelig: 1000},
+        {navn: 'HealthMed', prisPerAksje: 150, sektor: 'helse', antallAksjerTilgjengelig: 5000},
+        {navn: 'EduLearn', prisPerAksje: 40, sektor: 'utdanning', antallAksjerTilgjengelig: 0},
+        {navn: 'FoodYum', prisPerAksje: 200, sektor: 'mat', antallAksjerTilgjengelig: 3000},
+        {navn: 'EcoPower', prisPerAksje: 60, sektor: 'energi', antallAksjerTilgjengelig: 1500},
+        {navn: 'AutoDrive', prisPerAksje: 120, sektor: 'transport', antallAksjerTilgjengelig: 2500},
+        {navn: 'FinWealth', prisPerAksje: 90, sektor: 'finans', antallAksjerTilgjengelig: 4000},
+        {navn: 'BioLife', prisPerAksje: 130, sektor: 'bioteknologi', antallAksjerTilgjengelig: 2000},
+        {navn: 'InnoTech', prisPerAksje: 85, sektor: 'teknologi', antallAksjerTilgjengelig: 1800},
+        {navn: 'MediCare', prisPerAksje: 140, sektor: 'helse', antallAksjerTilgjengelig: 4500},
+        {navn: 'TeachSmart', prisPerAksje: 35, sektor: 'utdanning', antallAksjerTilgjengelig: 300},
+        {navn: 'TasteGood', prisPerAksje: 220, sektor: 'mat', antallAksjerTilgjengelig: 2800}
+    ];
+    
+  
+  const hentSektorer = (aksjeListe) => {
+    let sektorListe = aksjeListe.map((aksje) => {return aksje.sektor})
+    return sektorListe
+  }
+  
+  console.log(hentSektorer(aksjeListe))
+
+// Lag en liste med alle frukt
+const vareListe = [
+    { navn: 'Eple', type: 'frukt' },
+    { navn: 'Gulrot', type: 'grønnsak' },
+    { navn: 'Blåbær', type: 'bær' },
+    { navn: 'Banan', type: 'frukt' },
+    { navn: 'Brokkoli', type: 'grønnsak' }
+];
+
+const fruktListe = []
+
+vareListe.map((vare) => {
+    //sjekke om type == frukt og legge til den varen i fruktliste
+    if (vare.type =="frukt") {
+        fruktListe.push(vare.navn)
+    }
+})
+
+console.log(fruktListe)
+
+//SLIDES
+// Bruker map() til å lage en ny liste med tallene pluss 1
+const tallListe = [1,2,3,4,5];
+
+//Med vanlig funksjon
+const nyTallListe1 = tallListe.map(dobling)
+function dobling(tall){return tall+1}
+
+//Med "arrow functions"
+const nyTallListe2 = tallListe.map((tall) => {return tall+1})
 
 
 
-function skrivMelding(){
-   let melding = "Heihei"
-   return melding 
-}
-
-console.log(skrivMelding())
-
-//minFunksjon(argument) // Printer argument
-
-//minFunksjon() //Printer yolo til konsollen
-
-function klikkMeg(){
-    console.log("Klikk!")
-}
-
-function plussSammen(tall1,tall2){
-    let tall3 = tall1 + tall2
-    return tall3
-}
-
-let sum = plussSammen(3,5)
-
-
-function dele(tall1,tall2){
-    return tall1/tall2
-}
-
-
-
-const person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 50,
-    eyeColor: "blue"
-  };
-
-function printName(person){
-    console.log(person.firstName + person.lastName)
-}
-
-printName(person)
+console.log(tallListe, nyTallListe2);
