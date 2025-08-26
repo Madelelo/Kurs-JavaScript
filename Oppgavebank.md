@@ -18,8 +18,8 @@ Det kan være fristende å bare copy/paste kode fra internett/AI, men det kan v�
 ## Innhold – Trykk på for å hoppe direkte i dokumentet
 - [Kom i gang!](#kom-i-gang)
 - [JavaScript 1 – Variabler, objekter, if/else](#javascript-1--variabler-objekter-ifelse)
-- [JavaScript 2 – Forms og Løkker](#javascript-2--input-og-løkker)
-- [JavaScript 3 – Funksjoner og Lister](#javascript-2--input-og-løkker)
+- [JavaScript 2 – Input og Løkker](#javascript-2--input-og-løkker)
+- [JavaScript 3 – Funksjoner og Lister](#javascript-2--funksjoner-og-lister)
 
 
 ---
@@ -309,7 +309,7 @@ Skriv et program som lager et enkelt hangman-spill ved bruk av løkker.
 Ikke tenk på CSS eller utssende før etter du har laget logikken.
 
 ### UTFORDRING – Pokemon-nettside
-Kopier Pokemon-objektet fra dette dokumentet (www.krt.im/POKEMON) eller lag ditt eget ved hjelp av en AI.
+Kopier Pokemon-objektet fra [denne siden](https://github.com/Madelelo/Kurs-JavaScript/blob/main/JavaScript2/pokemon.js) eller lag ditt eget ved hjelp av en AI.
 
 Bruk dette til å lage en kul nettside som presenterer pokemon. Du kan for eksempel lage:
 • Lag en tabell eller lignende som presenterer Pokemon-data
@@ -407,7 +407,6 @@ Steg 1 – Lag input-feltet og en søk-knapp
 Steg 2 – Skriv en funksjon `updateHeroesList("search")` som kjører når du klikker på søk-knappen. Denne funksjonen tar inn søke-ordet som parameter, og oppdaterer listen i HTML-dokumentet.
 
 BONUS! For hver bokstav som skrives inn skal listen med helter oppdateres
-
 
 ### UTFORDRING - Aksjeanalyse
 I denne oppgaven skal du skrive et program som tar inn data om forskjellige aksjer og presenterer forskjellige deler av dataene som beskrevet under. 
