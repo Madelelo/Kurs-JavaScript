@@ -3,12 +3,13 @@ Dette er et kurs i webutvikling med vanilla JavaScript designet for VG2 Informas
 
 Her finner du en oppgavebank med oppgaver tilpasset hvert tema i kurset, løsningsforslag og kode fra alle felles gjennomganger. 
 
+**🏦 [Link til oppgavebank](https://github.com/Madelelo/Kurs-JavaScript/tree/main/Oppgavebank) 🏦**
 
- [JavaScript 1 -Variabler, objekter, kontrollflyt og eventer ](https://github.com/Madelelo/Kurs-JavaScript/tree/main/JavaScript1)
+1️⃣ [JavaScript 1 -Variabler, objekter, kontrollflyt og eventer ](https://github.com/Madelelo/Kurs-JavaScript/tree/main/JavaScript1)
 
-[JavaScript 2 - Kommer](https://github.com/Madelelo/Kurs-JavaScript/tree/main/JavaScript2)
+2️⃣ [JavaScript 2 - Kommer](https://github.com/Madelelo/Kurs-JavaScript/tree/main/JavaScript2)
 
-[JavaScript 3 - Kommer](https://github.com/Madelelo/Kurs-JavaScript/tree/main/JavaScript3)
+3️⃣ [JavaScript 3 - Kommer](https://github.com/Madelelo/Kurs-JavaScript/tree/main/JavaScript3)
 
 ## Tips og triks
 

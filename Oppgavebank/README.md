@@ -19,7 +19,7 @@ Det kan være fristende å bare copy/paste kode fra internett/AI, men det kan v�
 - [Kom i gang!](#kom-i-gang)
 - [JavaScript 1 – Variabler, objekter, if/else](#javascript-1--variabler-objekter-ifelse)
 - [JavaScript 2 – Input og Løkker](#javascript-2--input-og-løkker)
-- [JavaScript 3 – Funksjoner og Lister](#javascript-2--funksjoner-og-lister)
+- [JavaScript 3 – Funksjoner og Lister](#javascript-3--funksjoner-og-lister)
 
 
 ---
