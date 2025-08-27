@@ -45,7 +45,7 @@ For å komme i gang med JavaScript trenger du en **mappe med to filer**, for eks
 ```
 
 
-![Screenshot av VScode](image.png)
+![Screenshot av VScode](/Bilder/VSC-oppsett.png)
 
 ## Sjekk koden din i nettleser
 Åpne `index.html` i en nettleser eller bruk Live Server extension i VS-code til å kjøre koden.
@@ -54,7 +54,7 @@ Vi anbefaler å bruke noe annet enn Safari som nettleser.
 
 Husk å `Inspect element` eller `command+shift+i` og trykk på `Console` for å finne frem til ting som blir skrevet i konsollen.
 
-![Skjermbilde av nettleseren](NettleserMedKonsoll.png)
+![Skjermbilde av nettleseren](/Bilder/NettleserMedKonsoll.png)
 
 ---
 
@@ -150,7 +150,7 @@ Skriv en kodesnutt som lager en liten tekst-formaterer.
 Brukeren skal kunne skrive inn valgfri tekst med bruk av `input` og så endre tekstens font, fontstørrelse, font farge og farge på bakgrunnen.
 
 Sluttresultatet skal se ca. slik ut:
-![Enkel HTML-side med tekstformaterer](image-1.png)
+![Enkel HTML-side med tekstformaterer](/Bilder/Tesktformatering.png)
 
 ### UTFORDRING  - Kalkulator
 Bruk triksene vi har lært til å lage en kalkulator!
@@ -300,11 +300,11 @@ For eksempel: Brukeren skriver 4. Konsollen ser da slik ut:
 
 ### UTFORDRING – Hangman!
 Skriv et program som lager et enkelt hangman-spill ved bruk av løkker.
-• Velg et ord brukeren skal gjette, for eksempel ord = «Elvebakken»
-• Brukeren skal gjette en og en bokstav - gjettetBokstav
-• Brukeren ha 10 liv – antallLiv = 10
-• Bruk en for of-løkke til å sjekke om gjettet bokstav ligger i ordet du har valgt
-• Bruk en while-løkke til å passe på hvor mange liv brukeren har
+* Velg et ord brukeren skal gjette, for eksempel ord = «Elvebakken»
+* Brukeren skal gjette en og en bokstav - gjettetBokstav
+* Brukeren ha 10 liv – antallLiv = 10
+* Bruk en for of-løkke til å sjekke om gjettet bokstav ligger i ordet du har valgt
+* Bruk en while-løkke til å passe på hvor mange liv brukeren har
 
 Ikke tenk på CSS eller utssende før etter du har laget logikken.
 
@@ -312,10 +312,10 @@ Ikke tenk på CSS eller utssende før etter du har laget logikken.
 Kopier Pokemon-objektet fra [denne siden](https://github.com/Madelelo/Kurs-JavaScript/blob/main/JavaScript2/pokemon.js) eller lag ditt eget ved hjelp av en AI.
 
 Bruk dette til å lage en kul nettside som presenterer pokemon. Du kan for eksempel lage:
-• Lag en tabell eller lignende som presenterer Pokemon-data
-• Vis en tilfeldig Pokémon ved hver lasting av siden, hvor farge og design på hele siden også oppdateres
-• Lag en quiz for Pokémon-kunnskap
-• Lag en søkefunksjon for Pokémon:
+* Lag en tabell eller lignende som presenterer Pokemon-data
+* Vis en tilfeldig Pokémon ved hver lasting av siden, hvor farge og design på hele siden også oppdateres
+* Lag en quiz for Pokémon-kunnskap
+* Lag en søkefunksjon for Pokémon
 
 ---
 
@@ -332,8 +332,8 @@ Skriv en funksjon som heter `kastTerning`. Funksjonen skal ta inn antallSider so
 En vanlig terning har 6 sider og returnerer tall mellom 1-6. Da ser funksjonskallet slik ut kastTerning(6)
 
 Tips! Bruk de innebygde funksjonene Math.random() og Math.floor(number).
-• Math.random() er en funksjon som returnerer et tilfeldig desimaltall fra 0 til, men ikke med, 1. Math.random()*6, gir oss et tall fra og med null til, men ikke med 6.
-• Math.floor(number) er en funksjon som runder ned et tall. For eksempel vil Math.floor(3.444) returnerer 3.
+* Math.random() er en funksjon som returnerer et tilfeldig desimaltall fra 0 til, men ikke med, 1. Math.random()*6, gir oss et tall fra og med null til, men ikke med 6.
+* Math.floor(number) er en funksjon som runder ned et tall. For eksempel vil Math.floor(3.444) returnerer 3.
 
 ## Oppgave 3 – Adjektivhistorie
 Skriv en funksjon som heter `genererHistorie`. Funksjonen skal ta inn ett navn og 4 adjektiv som parametere, og returnere følgende historie til konsollen:
@@ -345,11 +345,11 @@ Lag en liten nettside som konverterer fra Celsius til Fahrenheit. Formler du tre
 fahrenheit = (celsius*1.8) + 32 og celsius = (fahrenheit − 32) *0.56
 
 Du skal lage følgende funksjoner
-• celciusToFahrenheit(tempInC) – tar inn temperatur i C og returnerer F
-• fahrenheitToCelsius(tempInF) – tar inn temperatur i F og returnerer i C
-• handleCalculate() – eventhandler for knappen «Konverter temperatur». Denne funksjonen må sjekke om det er trykket av for Fahrenheit eller Celsius, og deretter kalle riktig funksjon.
+* `celciusToFahrenheit(tempInC)` – tar inn temperatur i C og returnerer F
+* `fahrenheitToCelsius(tempInF)` – tar inn temperatur i F og returnerer i C
+* `handleCalculate()` – eventhandler for knappen «Konverter temperatur». Denne funksjonen må sjekke om det er trykket av for Fahrenheit eller Celsius, og deretter kalle riktig funksjon.
 
-![Skisse av nettside](image-2.png)
+![Skisse av nettside](/Bilder/Temperaturkalk.png)
 
 ### UTFORDRING – Arrow functions
 Gjør om alle funksjonene i oppgave 1-4 du har skrevet til arrow functions.
