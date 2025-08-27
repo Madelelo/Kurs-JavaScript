@@ -26,7 +26,20 @@ Her finner du en oppgavebank med oppgaver tilpasset hvert tema i kurset, løsnin
 
 ---
 
-### Husk på:
+### Anbefalte strategier for å finne hjelp:
+* Sjekk ut slides fra kurset. Det er eksempler der som passer til nesten alle oppgavene.
+* Spør Google på engelsk. StackOverflow gir nesten alltid bra svar!
+* Sjekk ut [W3 Schools](https://www.w3schools.com/js/default.asp) for syntaks og eksempler.
+* Spør AI! Bruk [www.ki.osloskolen.no](https://ki.osloskolen.no/) eller andre chatbotter.
+* Gjerne spør om hjelp fra andre elever før du spør lærer om hjelp – det er kjempegod læring i å forklare noen andre hvordan noe fungerer. Dette gjelder både store og små ting.
+
+**Husk 1 - Vi bruker "vanilla" JavaScript.**
+Når du søker på ting vil du ofte få svar som inneholder biblioteker eller rammeverk som fo eksempel React, Svelte, jQuery eller TypeScript. Det kan være lurt å legge til vanilla JavaScript i søkemeldingen din. 
+
+**Husk 2 – Vær forsiktig med å kopiere kode.**
+Det kan være fristende å bare copy/paste kode fra internett/AI, men det kan være lurt å tenke seg om. Poenget med dette kurset er å lære JavaScript, og da er det nok lurere å skrive koden selv.
+
+### Husk på: 
 
 * **Variabelnavn**: Bruk beskrivende navn og camelCase
 * **Sammenligning**: Bruk `===` i stedet for `==`
