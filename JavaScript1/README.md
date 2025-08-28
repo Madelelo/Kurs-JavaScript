@@ -1,5 +1,7 @@
 # JavaScript 1
 
+**🏦 [Link til oppgavebank](https://github.com/Madelelo/Kurs-JavaScript/tree/main/Oppgavebank) 🏦**
+
 ## Variabler
 
 ### Deklarasjon og tildeling:
