@@ -169,8 +169,8 @@ str.toLowerCase() - Convert string str to lower case
 str.toUpperCase() - Convert string str to upper case
 str.length - Return length of string str
 str1.concat(str2) - Combine text of strings str1 and str2 and return a new string
-str.match(regexp) - Match a regular expression regexp against string str - str1.replace(regexp, str2)
-Replace matched regexp elements in string str1 with string str2 
+str.match(regexp) - Match a regular expression regexp against string str 
+str1.replace(regexp, str2) - Replace matched regexp elements in string str1 with string str2 
 str.search(regexp) - Return position of search for a match between regexp and string str
 ```
 
