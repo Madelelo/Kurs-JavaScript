@@ -134,7 +134,7 @@ Lag 3 knapper, med 3 forskjellige farger. Når brukeren trykker på en knapp ska
 ### Oppgave 13
 Skriv en kodesnutt som lager en liten tekst-formaterer.
 
-Brukeren skal kunne skrive inn valgfri tekst med bruk av `input` og så endre tekstens font, fontstørrelse, font farge og farge på bakgrunnen.
+Brukeren skal kunne skrive inn valgfri tekst med bruk av `prompt()` og så endre tekstens font, fontstørrelse, font farge og farge på bakgrunnen.
 
 Sluttresultatet skal se ca. slik ut:
 ![Enkel HTML-side med tekstformaterer](/Bilder/Tesktformatering.png)
