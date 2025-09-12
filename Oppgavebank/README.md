@@ -287,21 +287,21 @@ Skriv en kodesnutt som skriver ut i konsollen alle tall mellom 1 og 10. Lag en l
 
 Skriv en kodesnutt som skriver ut til HTML alle tall mellom 1 og ett tallet brukeren skriver inn. Her er det lurt å sjekke hva brukeren skriver inn før du kjører løkken.
 
-Du kan velge selv om du vil bruke prompt() eller lage inputfelt og knapp.
+Du kan velge selv om du vil bruke `prompt()` eller lage inputfelt og knapp.
 
-Hint! parseInt(streng) gjør om strenger til tall
+Hint! `parseInt(streng)` gjør om strenger til tall
 
 ### Oppgave 6
 
 Bruk person-objektet du lagde i JavaScript 1. Skriv en kodesnutt som skriver ut til HTML informasjonen i person-objektet.
 
-Hint! For in
+Hint! Det finnes For in-løkker.
 
 ### Oppgave 7
 
 Bruk løkker til å lage en passordgeneratoren fra forrige kurs!
 
-Bruk prompt() eller input til å til å hente et ord fra brukeren og lagre det i en variabel.
+Bruk `prompt()` eller `input` til å til å hente et ord fra brukeren og lagre det i en variabel.
 
 - Bytt ut alle e-er med 3-tall
 - Bytt ut allt i-er med 1-tall
