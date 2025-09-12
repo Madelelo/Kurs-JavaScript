@@ -1,9 +1,31 @@
 //Fra Slides
-function sendInn(){
-    let inputtekst = document.getElementById("minInput").value;
-    console.log(inputtekst)
+function sendInn() {
+  let inputtekst = document.getElementById("minInput").value;
+  console.log(inputtekst);
 }
 
+let signupBox = document.createElement("div"); //Lager en div vi kan legge alle inputfeltene inni
+
+//Lager en epost input
+let emailInput = document.createElement("input"); // Lager nytt  input-element
+let emailInputLabel = document.createElement("label"); // Lager nytt  label-element
+emailInput.id = "emailInput";
+emailInput.type = "text";
+emailInputLabel.innerHTML = "Skriv inn din epostadresse: ";
+emailInputLabel.for = "emailInput"; //Samme som <input> id
+signupBox.appendChild(emailInputLabel); //Legger label inn i signupBox
+signupBox.appendChild(emailInput); //Legger input inn i signupBox
+
+//Lager en påmeldingsknapp
+let signupButton = document.createElement("input");
+signupButton.type = "button";
+signupButton.value = "Meld deg på nyhetsbrevet";
+signupButton.onclick = function () {
+  console.log("Du er nå påmeldt nyhetsbrevet!");
+};
+signupBox.appendChild(signupButton);
+
+document.body.appendChild(signupBox); //Legger signingBox-diven inn i HTML-dokumentet
 
 //Oppgave 1 - Kan du øvelseskjøre?
 function sjekkTrafikkalt() {
@@ -72,11 +94,10 @@ loginForm.appendChild(checkButton);
 //Add the form to the HTML-page
 document.getElementById("form1").appendChild(loginForm);
 
-
 //LØKKER
 
 //Oppgave 4
-console.log("Opg4: ")
+console.log("Opg4: ");
 for (let i = 0; i < 11; i++) {
   console.log(i); //Printer alle tall 0 til 4
 }
@@ -88,19 +109,17 @@ while (i < 11) {
 }
 
 //Oppgave 5
-console.log("Opg5: ")
-let inputTall = 2
+console.log("Opg5: ");
+let inputTall = 2;
 // inputTall = parseInt(prompt("Skriv inn et tall under 20"))
 
-
-if (inputTall<20) {
-  for (let index = 0; index < inputTall+1 ; index++) {
-    console.log(index)
-    
+if (inputTall < 20) {
+  for (let index = 0; index < inputTall + 1; index++) {
+    console.log(index);
   }
 }
 //Oppgave 6
-console.log("Opg6: ")
+console.log("Opg6: ");
 const person = { fnavn: "Madeleine", enavn: "Lorås", alter: 32 };
 let personInfo = "";
 
@@ -115,9 +134,8 @@ for (let b of navn) {
   console.log(b); //Skriver ut alle bokstavene i Madeleine
 }
 
-
 //Oppgave 7
-console.log("Opg7: ")
+console.log("Opg7: ");
 let passord = "hettegenser";
 // passord = prompt("Skriv inn et ord")
 
@@ -132,7 +150,7 @@ for (let b of passord) {
 console.log("new", passord);
 
 //Oppgave 8
-console.log("Opg8: ")
+console.log("Opg8: ");
 let maxStars = 5;
 
 for (let i = 1; i <= maxStars; i++) {
@@ -142,7 +160,7 @@ for (let i = 1; i <= maxStars; i++) {
   }
   console.log(row);
 }
-//UTFORDRING Pokemon-nettside 
+//UTFORDRING Pokemon-nettside
 let pokemon = {
   pikachu: {
     name: "Pikachu",
