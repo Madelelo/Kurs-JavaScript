@@ -374,7 +374,7 @@ Tips! Bruk de innebygde funksjonene Math.random() og Math.floor(number).
 
 Skriv en funksjon som heter `genererHistorie`. Funksjonen skal ta inn ett navn og 4 adjektiv som parametere, og returnere følgende historie til konsollen:
 
-Det var en gang en <ADJEKTIV1> IM-elev som het <NAVN>. I det <ADJEKTIV2> JavaScript-kurset lærte <NAVN> om variabler og funksjoner sammen med <ADJEKTIV3> klassekamerater. Læreren i kurset er veldig <ADJEKTIV4>, noe som gjør kursdagene ekstra spennende.
+Det var en gang en `<ADJEKTIV1>` IM-elev som het `<NAVN>`. I det `<ADJEKTIV2>` JavaScript-kurset lærte `<NAVN>` om variabler og funksjoner sammen med `<ADJEKTIV3>` klassekamerater. Læreren i kurset er veldig `<ADJEKTIV4>`, noe som gjør kursdagene ekstra spennende.
 
 ## Oppgave 4 - Celsius til Fahrenheit
 
