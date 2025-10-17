@@ -431,7 +431,7 @@ Med listen `[2, 4, 6]`, skal kodesnutten returnere `[4, 8, 12]`.
 
 Kopier [Pokemon-objektet på denne linken](https://github.com/Madelelo/Kurs-JavaScript/blob/main/JavaScript2/pokemon.js) og bruk map() til å lage nye lister med følgende info:
 
-- Alle unike typer
+- Alle typer
 - Alle pokemon med health points over 60
 - BONUS: En sortert liste basert på attack points hint: sjekk ut sort(comparator)
 
