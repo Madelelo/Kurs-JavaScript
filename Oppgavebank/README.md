@@ -420,14 +420,14 @@ Eksempel: erPalindrom ("level") skal gi true. erPalindrom("hei") skal returnere 
 
 Lag en side som tar inn og presenterer en liste med high scores. Brukeren skal kunne skrive inn en score og et navn. Når en ny high score legges til i lista skal den sorteres slik at den med høyeste score kommer øverst. Lag egne variabelnavn, funksjoner og passende design.
 
-### Oppgave 9 – Kom i gang med map()
+### Oppgave 8 – Kom i gang med map()
 
 Skriv en kodesnutt som tar inn en liste med heltall og lager en ny liste hvor hvert tall er doblet. Begge listene skal printes til konsollen.
 
 Eksempel:
 Med listen `[2, 4, 6]`, skal kodesnutten returnere `[4, 8, 12]`.
 
-### Oppgave 10 – Pokemon-lister
+### Oppgave 9 – Pokemon-lister
 
 Kopier [Pokemon-objektet på denne linken](https://github.com/Madelelo/Kurs-JavaScript/blob/main/JavaScript2/pokemon.js) og bruk map() til å lage nye lister med følgende info:
 
