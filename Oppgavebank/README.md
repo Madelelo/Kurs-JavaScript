@@ -433,7 +433,7 @@ Kopier [Pokemon-objektet på denne linken](https://github.com/Madelelo/Kurs-Java
 
 - Alle typer
 - Alle pokemon med health points over 60
-- BONUS: En sortert liste basert på attack points hint: sjekk ut sort(comparator)
+- BONUS: En sortert liste basert på attack points. Hint: Kombiner .map().sort()
 
 ### UTFORDRING - Søkefelt
 
